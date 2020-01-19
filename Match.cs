@@ -8,6 +8,7 @@ namespace scouting
         private TheBlueAlliance.Models.EventMatches.Match originalMatch;
         public string Key { get; private set; } // PRIMARY KEY
         public MatchType Type { get; private set; }
+        
         public int MatchNum { get; private set; }
         public string EventKey { get; private set; }
         public Alliances Alliances { get; set; } ////////////////////////////////// check
